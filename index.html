@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link href="styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <section id="about">
+        <h1>About me</h1>
+            <img class="portrait" src="https://images.unsplash.com/photo-1619437847006-e04b4b226a7b?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="portrait-img">
+            <p class="about-text">Welcome to my personal website! My name is Andreea and I learn about WebDevelopment. I hope you enjoy my little projects.</p>
+    </section>
+
+    <hr />
+
+    <section id="projects">
+        <h1>Projects</h1>
+
+        <h2>Source Code</h2>
+        <div class="btns">
+            <a href="https://github.com/DanAndreeaMaria/Restaurant" target="_blank"><button class="button button1">Restaurant</button></a>
+            <a href="https://github.com/DanAndreeaMaria/Calendar" target="_blank"><button class="button button2">Calendar</button></a>
+            <a href="https://github.com/DanAndreeaMaria/ToDoList" target="_blank"><button class="button button3">ToDoList</button></a>
+            <a href="https://github.com/DanAndreeaMaria/Calculator" target="_blank"><button class="button button4">Calculator</button></a>
+        </div>
+
+        <div class="project-imgs">
+            <img src="images/restaurantpage.png" alt="restaurant" width="20%">
+            <img src="images/calendar.png" alt="calendar" width="20%">
+            <img src="images/todolist.png" alt="todolist" width="20%">
+            <img src="images/calculator.png" alt="calculator" width="20%">
+        </div>
+
+        <h2>Live Demos</h2>
+        <div class="btns">
+            <a href="https://danandreeamaria.github.io/Restaurant/" target="_blank"><button class="button button1">Restaurant</button></a>
+            <a href="https://danandreeamaria.github.io/Calendar/" target="_blank"><button class="button button2">Calendar</button></a>
+            <a href="https://danandreeamaria.github.io/ToDoList/" target="_blank"><button class="button button3">ToDoList</button></a>
+            <a href="https://danandreeamaria.github.io/Calculator/" target="_blank"><button class="button button4">Calculator</button></a>
+        </div>
+
+
+    </section>
+
+    <hr />
+
+    <section id="contact">
+        <h1>Contact</h1>
+
+        <div class="form-div">
+            <form action="mailto:deea_andreea_124@yahoo.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="fname"><br>
+                <label for="mail">Your email:</label><br>
+                <input type="text" id="mail" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="33" placeholder="Write the message here..."></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <br>
+
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>Made with &#x2764 by Andreea</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #503C3C;
+    font-family: "Poppins", sans-serif;
+}
+
+/*image*/
+.portrait {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+/*navbar*/
+ul {
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    position: fixed;
+    background-color: rgba(141, 79, 111, 0.8); /* Red background with 50% opacity */
+}
+
+li {
+    display: inline;
+    padding: 50px;
+    color: #F1EFEF;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+li > a {
+    text-decoration: none;
+    color: #F1EFEF;
+}
+
+/*images*/
+.project-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-imgs > img {
+    border-radius: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    transition: transform 0.5s ease-in-out; /* Add transition property */
+}
+
+@media screen and (max-width: 1000px) {
+    .project-imgs {
+        flex-direction: column; /* Change to column direction for stacking */
+        align-items: center; /* Align items to the center */
+    }
+
+    .project-imgs > img {
+        width: 50%; /* Set width for smaller screens */
+        margin: 5px; /* Add some margin between images */
+    }
+}
+
+.project-imgs > img:hover {
+    transform: scale(1.2);
+}
+
+
+/*headings*/
+h1 {
+    color: #F1EFEF;
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: #F1EFEF;
+    font-weight: 200;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.about-text {
+    color: #F1EFEF;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+}
+
+/*hr*/
+hr {
+    border: 1px solid #7E6363;
+}
+
+/*buttons*/
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.button {
+    border: none;
+    columns: white;
+    padding: 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 30px; 
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .button {
+        padding: 10px;
+        font-size: 1rem;
+        margin: 10px;
+        display: block;
+        justify-content: center;
+        align-items: center; 
+    }
+}
+
+.button1 {
+    background-color: #503C3C;
+    color: white;
+    border: 2px solid #FFC436;
+    border-radius: 50px;
+}
+
+.button1:hover {
+    background-color: #FFC436;
+    color: white;
+}
+
+.button2 {
+    background-color: #503C3C;
+    color: white;
+    border: 2px solid #A25772;
+    border-radius: 50px;
+}
+
+.button2:hover {
+    background-color: #A25772;
+    color: white;
+}
+
+.button3 {
+    background-color: #503C3C;
+    color: white;
+    border: 2px solid #61A3BA;
+    border-radius: 50px;
+}
+
+.button3:hover {
+    background-color: #61A3BA;
+    color: white;
+}
+
+.button4 {
+    background-color: #503C3C;
+    color: white;
+    border: 2px solid #860A35;
+    border-radius: 50px;
+}
+
+.button4:hover {
+    background-color: #860A35;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*form*/
+label {
+    margin-left: 30px;
+    color: #F1EFEF;
+    padding-top: 20px;
+}
+
+input[type=text], select {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 14px 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #E5E1DA;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #A87C7C;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+  }
+
+textarea {
+    width: 50%;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #E5E1DA;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    resize: none;
+}
+
+.form-div {
+    width: 50%;
+    padding: 50px;
+}
+
+footer {
+    color: #F1EFEF;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
