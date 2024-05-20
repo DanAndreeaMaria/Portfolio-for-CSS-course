@@ -206,6 +206,13 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1000px) {
+    input[type=text] {
+        width: 150px;
+    }
 }
 
 input[type=submit] {
@@ -220,7 +227,14 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
     font-family: "Poppins", sans-serif;
+    transition-duration: 0.5s;
   }
+
+@media screen and (max-width: 1000px) {
+    input[type=submit] {
+        width: 30%;
+    }
+}
 
 textarea {
     width: 50%;
@@ -234,17 +248,18 @@ textarea {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     resize: none;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1000px) {
+    textarea {
+        width: 300px;
+    }
 }
 
 .form-div {
     width: 50%;
     padding: 50px;
-}
-
-@media screen and (max-width: 1200px) {
-    .form-div {
-        width: 100%;
-    }
 }
 
 footer {
