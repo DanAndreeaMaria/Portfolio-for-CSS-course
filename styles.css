@@ -241,6 +241,12 @@ textarea {
     padding: 50px;
 }
 
+@media screen and (max-width: 1200px) {
+    .form-div {
+        width: 100%;
+    }
+}
+
 footer {
     color: #F1EFEF;
     font-size: 20px;
